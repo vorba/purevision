@@ -1,0 +1,3 @@
+2014-12-17T14:36:04.982-0500 Trying to install Windows service 'mvdb'
+2014-12-17T14:36:05.002-0500 Service 'mvdb' (MultiVision Database) installed with command line '"C:\Program Files\MongoDB 2.6 Standard\bin\mongod.exe" --port 27017 --dbpath C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\db --logpath C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\logs\db.log --smallfiles --service'
+2014-12-17T14:36:05.002-0500 Service can be started from the command line with 'net start mvdb'

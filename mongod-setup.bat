@@ -1,0 +1,1 @@
+mongod --install --serviceName "mvdb" --serviceDisplayName "MultiVision Database" --port 27017 --dbpath C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\db --logpath C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\logs\db.log --smallfiles

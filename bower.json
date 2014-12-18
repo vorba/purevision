@@ -1,0 +1,16 @@
+{
+  "name": "MultiVision",
+  "version": "0.0.0",
+  "authors": [
+    "Adam Cox (Vorba Corp) <adam.cox@vorba.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "toastr": "~2.1.0",
+    "angular": "1.2.28",
+    "angular-route": "1.2.28",
+    "angular-resource": "1.2.28"
+  }
+}

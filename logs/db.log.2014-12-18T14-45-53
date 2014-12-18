@@ -1,0 +1,41 @@
+2014-12-18T09:45:19.976-0500 Trying to start Windows service 'MongoDB'
+2014-12-18T09:45:19.978-0500 Service running
+2014-12-18T09:45:19.981-0500 [initandlisten] MongoDB starting : pid=13276 port=27017 dbpath=C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\db 64-bit host=vorba
+2014-12-18T09:45:19.981-0500 [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2014-12-18T09:45:19.981-0500 [initandlisten] db version v2.6.6
+2014-12-18T09:45:19.981-0500 [initandlisten] git version: 608e8bc319627693b04cc7da29ecc300a5f45a1f
+2014-12-18T09:45:19.981-0500 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-12-18T09:45:19.981-0500 [initandlisten] allocator: system
+2014-12-18T09:45:19.982-0500 [initandlisten] options: { net: { port: 27017 }, service: true, storage: { dbPath: "C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\db", smallFiles: true }, systemLog: { destination: "file", path: "C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\logs\db.log" } }
+2014-12-18T09:45:20.005-0500 [initandlisten] journal dir=C:\Users\coxad\Documents\Dev\Pluralsight\MEAN\MultiVision\db\journal
+2014-12-18T09:45:20.006-0500 [initandlisten] recover : no journal files present, no recovery needed
+2014-12-18T09:45:20.029-0500 [initandlisten] waiting for connections on port 27017
+2014-12-18T09:45:20.423-0500 [initandlisten] connection accepted from 127.0.0.1:41348 #1 (1 connection now open)
+2014-12-18T09:45:20.423-0500 [initandlisten] connection accepted from 127.0.0.1:41349 #2 (2 connections now open)
+2014-12-18T09:45:20.423-0500 [initandlisten] connection accepted from 127.0.0.1:41350 #3 (3 connections now open)
+2014-12-18T09:45:20.425-0500 [initandlisten] connection accepted from 127.0.0.1:41351 #4 (4 connections now open)
+2014-12-18T09:45:20.425-0500 [initandlisten] connection accepted from 127.0.0.1:41352 #5 (5 connections now open)
+2014-12-18T09:45:29.434-0500 [initandlisten] connection accepted from 127.0.0.1:41354 #6 (6 connections now open)
+2014-12-18T09:45:29.442-0500 [conn6] end connection 127.0.0.1:41354 (5 connections now open)
+2014-12-18T09:45:47.176-0500 [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2014-12-18T09:45:47.176-0500 [serviceShutdown] now exiting
+2014-12-18T09:45:47.176-0500 [serviceShutdown] dbexit: 
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: going to close listening sockets...
+2014-12-18T09:45:47.176-0500 [serviceShutdown] closing listening socket: 520
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: going to flush diaglog...
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: going to close sockets...
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: waiting for fs preallocator...
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: lock for final commit...
+2014-12-18T09:45:47.176-0500 [serviceShutdown] shutdown: final commit...
+2014-12-18T09:45:47.176-0500 [conn1] end connection 127.0.0.1:41348 (4 connections now open)
+2014-12-18T09:45:47.177-0500 [conn2] end connection 127.0.0.1:41349 (4 connections now open)
+2014-12-18T09:45:47.177-0500 [conn3] end connection 127.0.0.1:41350 (4 connections now open)
+2014-12-18T09:45:47.177-0500 [conn4] end connection 127.0.0.1:41351 (4 connections now open)
+2014-12-18T09:45:47.177-0500 [conn5] end connection 127.0.0.1:41352 (2 connections now open)
+2014-12-18T09:45:47.194-0500 [serviceShutdown] shutdown: closing all files...
+2014-12-18T09:45:47.195-0500 [serviceShutdown] closeAllFiles() finished
+2014-12-18T09:45:47.195-0500 [serviceShutdown] journalCleanup...
+2014-12-18T09:45:47.195-0500 [serviceShutdown] removeJournalFiles
+2014-12-18T09:45:47.195-0500 [serviceShutdown] shutdown: removing fs lock...
+2014-12-18T09:45:47.196-0500 [initandlisten] now exiting
+2014-12-18T09:45:47.196-0500 [initandlisten] dbexit: ; exiting immediately
